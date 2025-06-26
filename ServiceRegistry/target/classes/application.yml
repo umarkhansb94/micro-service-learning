@@ -1,8 +1,0 @@
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    register-with-eureka: false   #Ye service as a eureka client register na ho
-    fetch-registry: false        #ye registry ko fetch na ker paye 
-server:
-  port: 8761
