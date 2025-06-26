@@ -1,0 +1,11 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: CONFIG-SERVER-MS
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/umarkhansb94/micro-service-learning
+          clone-on-start: true
